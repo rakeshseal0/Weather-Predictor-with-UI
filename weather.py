@@ -1,5 +1,5 @@
 #by R.S
-
+#add button image path before running
 import csv
 import requests
 from scipy import interpolate
@@ -84,7 +84,7 @@ gar1=tkinter.font.Font(family='Garamond', size=10)
 gar2=tkinter.font.Font(family='Garamond', size=8, weight=tkinter.font.BOLD)
 
 #images
-img = PhotoImage(file="E:/bt.png")
+img = PhotoImage(file=" ")  #add button image path
 
 
 #elements
